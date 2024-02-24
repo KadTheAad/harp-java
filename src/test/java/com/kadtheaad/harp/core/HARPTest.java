@@ -9,7 +9,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class HARPTest {
     @Test
     void harpShouldRunInLessThan10SecondsAndShouldBothTheSenderAndReceiverShouldResolveTheSameAddress() {
-        fail();
         final String[] senderAddress = new String[1];
         final String[] receiverAddress = new String[1];
         boolean[] senderDone = {false};
