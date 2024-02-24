@@ -5,6 +5,7 @@
   <artifactId>HARP</artifactId>
   <version>1.0-SNAPSHOT</version>
   <build>
+    <testSourceDirectory>src/test/java/com/kadtheaad/harp/</testSourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-shade-plugin</artifactId>

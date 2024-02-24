@@ -46,7 +46,9 @@
         </dependency>
     </dependencies>
 
+
     <build>
+        <testSourceDirectory>src/test/java/com/kadtheaad/harp/</testSourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
