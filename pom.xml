@@ -45,7 +45,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    
+
 
     <build>
         <testSourceDirectory>src/test/java/com/kadtheaad/harp/</testSourceDirectory>
