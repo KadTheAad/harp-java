@@ -45,15 +45,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/KadTheAad/harp-java</url>
-            <name>GitHub Packages</name>
-        </repository>
-    </distributionManagement>
-
+    
 
     <build>
         <testSourceDirectory>src/test/java/com/kadtheaad/harp/</testSourceDirectory>
