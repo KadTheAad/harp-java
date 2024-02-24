@@ -2,14 +2,15 @@ package com.kadtheaad.harp;
 
 import com.kadtheaad.harp.core.Networker;
 import com.kadtheaad.harp.core.HARP;
+import com.kadtheaad.harp.cryptography.encryptedtcp.EncryptedTCP;
+import com.kadtheaad.harp.cryptography.encryptedtcp.SymmetricallyEncryptedTCP;
 import net.sourceforge.argparse4j.ArgumentParsers;
 import net.sourceforge.argparse4j.impl.Arguments;
 import net.sourceforge.argparse4j.inf.ArgumentParser;
 import net.sourceforge.argparse4j.inf.ArgumentParserException;
 import net.sourceforge.argparse4j.inf.Namespace;
 
-import java.net.InetAddress;
-import java.net.SocketException;
+import java.net.*;
 import java.util.ArrayList;
 import java.util.List;
 
