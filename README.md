@@ -1,4 +1,5 @@
 # HARP (Written in Java)
+[![Java CI with Maven](https://github.com/KadTheAad/harp-java/actions/workflows/maven.yml/badge.svg)](https://github.com/KadTheAad/harp-java/actions/workflows/maven.yml)
 
 HARP-Java is a Java library, GUI, and CLI for resolving local IPv4 addresses securely.
 
