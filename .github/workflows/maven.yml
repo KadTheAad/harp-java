@@ -3,7 +3,7 @@ name: Maven Build and Test
 on: [push, pull_request]
 
 jobs:
-  build:
+  buildandtest:
     runs-on: ubuntu-latest
 
     steps:
@@ -13,6 +13,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '21'
+        distribution: 'openjdk'
 
     - name: Build with Maven
       run: mvn -B clean package
