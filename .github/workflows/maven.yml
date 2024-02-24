@@ -1,0 +1,23 @@
+name: Maven Build and Test
+
+on: [push, pull_request]
+
+jobs:
+  buildandtest:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up JDK
+      uses: actions/setup-java@v3
+      with:
+        java-version: '21'
+        distribution: 'adopt'
+        architecture: x64
+
+    - name: Build with Maven
+      run: mvn -B clean package
+
+    - name: Run Maven tests
+      run: mvn -B test
