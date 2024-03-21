@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /Users/khaledadib/harp-java 
+cd ~/harp-java 
 mvn clean package
