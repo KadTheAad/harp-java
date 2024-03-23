@@ -1,5 +1,6 @@
 # HARP (Written in Java)
 [![Java CI with Maven](https://github.com/KadTheAad/harp-java/actions/workflows/maven.yml/badge.svg)](https://github.com/KadTheAad/harp-java/actions/workflows/maven.yml)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKadTheAad%2Fharp-java.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FKadTheAad%2Fharp-java?ref=badge_shield)
 
 HARP-Java is a Java library, GUI, and CLI for resolving local IPv4 addresses securely.
 
@@ -99,3 +100,6 @@ Please make sure to update tests as appropriate.
 ## License
 
 [GNU LGPLv3](https://choosealicense.com/licenses/lgpl-3.0/)
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKadTheAad%2Fharp-java.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FKadTheAad%2Fharp-java?ref=badge_large)
